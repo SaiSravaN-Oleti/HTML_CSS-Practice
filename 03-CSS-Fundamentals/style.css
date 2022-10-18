@@ -78,3 +78,25 @@ aside {
   border-top: 5px solid rgba(9, 141, 174, 0.9);
   border-bottom: 5px solid rgba(9, 141, 174, 0.9);
 }
+
+/* ___________________Pseudo-classes___________________ */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: oblique;
+}
+
+/* li:nth-child(odd) {
+  color: rgb(250, 7, 7);
+}
+
+li:nth-child(even) {
+  color: rgb(7, 104, 250);
+} */
+
+article p:last-child {
+  color: coral;
+}
