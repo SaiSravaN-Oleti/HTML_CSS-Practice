@@ -4,13 +4,19 @@ h3,
 p,
 li {
   font-family: Verdana, sans-serif;
+  color: rgb(49, 49, 49);
 }
 
 h1 {
   font-size: 50px;
-
   text-transform: uppercase;
   font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(9, 141, 174, 0.9);
 }
 
 h2 {
@@ -61,4 +67,14 @@ footer p {
 
 .related-li {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f3f3f3;
+}
+
+aside {
+  background-color: #f3f3f3;
+  border-top: 5px solid rgba(9, 141, 174, 0.9);
+  border-bottom: 5px solid rgba(9, 141, 174, 0.9);
 }
