@@ -100,3 +100,24 @@ li:nth-child(even) {
 article p:last-child {
   color: coral;
 }
+
+/* ----------------Styling HyperLinks------------ */
+
+a:link {
+  color: rgba(9, 141, 174, 0.9);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(31, 31, 31);
+}
+
+a:hover {
+  color: coral;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:active {
+  background-color: aqua;
+}
