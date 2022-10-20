@@ -1,14 +1,20 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
 }
 
-body {
+.product {
   border: 5px solid black;
 }
 
-li {
+.detail-title {
+  font-size: 16px;
+}
+
+.detail-list {
   list-style: square;
 }
+
 
 .up-case {
   text-transform: uppercase;
