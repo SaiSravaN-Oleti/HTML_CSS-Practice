@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.main {
+  width: 900px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 body {
   border-top: 15px solid rgba(9, 141, 174, 0.9);
   font-family: Verdana, sans-serif;
@@ -28,7 +35,7 @@ aside {
   border-top: 5px solid rgba(9, 141, 174, 0.9);
   border-bottom: 5px solid rgba(9, 141, 174, 0.9);
   padding: 50px 50px;
-  width: 500px;
+
 }
 
 h1,
@@ -102,6 +109,7 @@ footer p {
 
 .copyright {
   font-size: 16px;
+  text-align: center;
 }
 
 .related-author {
