@@ -160,7 +160,7 @@ footer p {
 
 .author {
   font-style: italic;
-  font-size: 18 px;
+  /* font-size: 18 px; */
 }
 
 .copyright {
@@ -169,7 +169,7 @@ footer p {
 }
 
 .related-author {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: bold;
 }
 
