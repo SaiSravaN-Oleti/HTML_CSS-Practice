@@ -16,6 +16,40 @@ body {
   position: relative;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* p::first-line {
+  color: red;
+} 
+
+h3+p::first-line {
+  color: red;
+}*/
+
+/* after and before speudo element */
+h2 {
+  /* background-color: red; */
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -34px;
+  right: -56px;
+  border-radius: 5px;
+
+}
+
 .main-header {
   background-color: #dbdbdb;
   padding: 20px 40px;
@@ -23,6 +57,9 @@ body {
   border-radius: 20px;
 }
 
+nav {
+  text-align: center;
+}
 
 nav a:link {
   /* background-color: coral;
@@ -32,6 +69,7 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+
 }
 
 nav a:link:last-child {
