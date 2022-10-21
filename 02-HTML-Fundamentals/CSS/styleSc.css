@@ -55,10 +55,18 @@ a {
   display: inline-table;
   margin-right: 10px;
   margin-top: 10px;
+  border-radius: 50px;
+
 }
 
 .color-blue {
   background-color: blue;
+}
+
+.color-blue:hover {
+  background-color: blue;
+  height: 40px;
+  width: 40px;
 }
 
 .color-red {
