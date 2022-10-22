@@ -295,18 +295,15 @@ nav {
 }
 
 article {
-  background-color: #444;
   float: left;
-  width: 900px;
+  width: 825px;
 }
 
 aside {
-  background-color: red;
   float: right;
   width: 300px;
 }
 
 footer {
-  background-color: #ffe70e;
   clear: both;
 }
