@@ -340,3 +340,16 @@ footer {
   gap: 20PX;
   align-items: flex-end;
 }
+
+.row {
+  display: flex;
+  gap: 60px;
+}
+
+article {
+  flex: 1s;
+}
+
+aside {
+  flex: 0 0 300px;
+}
