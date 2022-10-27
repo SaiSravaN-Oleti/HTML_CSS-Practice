@@ -49,10 +49,10 @@
       width: 800px;
       margin: 100px auto;
       border-radius: 12px;
-      padding: 32px;
-      padding-left: 96px;
+      padding: 32px 86px 32px 86px;
+
       display: flex;
-      /*align-items: center;*/
+      align-items: center;
       gap: 92px;
 
       position: relative;
@@ -80,7 +80,7 @@
 
     /*Controls*/
     .btn {
-      background-color: #fff;
+      background-color: rgb(243, 227, 227);
       border: none;
       height: 40px;
       width: 40px;
@@ -98,7 +98,7 @@
     .btn-icon {
       height: 24px;
       width: 24px;
-      stroke: #ff0080;
+      stroke: rgb(247, 0, 173);
     }
 
     .btn--left {
@@ -114,6 +114,28 @@
       top: 50%;
       transform: translate(50%, -50%);
     }
+
+    .dots {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 32px);
+
+      display: flex;
+      gap: 10px;
+    }
+
+    .dot {
+      height: 12px;
+      width: 12px;
+      background-color: #fff;
+      border: 2px solid rgba(255, 0, 119, 0.507);
+      border-radius: 50%;
+    }
+
+    .dot--fill {
+      background-color: #ff009586;
+    }
   </style>
 </head>
 
@@ -122,8 +144,7 @@
     <img src="maria.jpg" alt="A guy image name Maria " class="testimonial-img" />
     <blockquote class="testimonial">
       <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque numquam dolor
-        explicabo consectetur adipisicing elit. Error eaque numquam dolor
-        explicabo"</p>
+        explicabo consectetur adipisicing elit."</p>
       <p class="testimonial-author"> Maria de Almedia</p>
       <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
     </blockquote>
@@ -138,6 +159,12 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
       </svg>
     </button>
+    <div class="dots">
+      <button class="dot dot--fill"> &nbsp;</button>
+      <button class="dot"> &nbsp;</button>
+      <button class="dot"> &nbsp;</button>
+      <button class="dot"> &nbsp;</button>
+    </div>
   </div>
 </body>
 
