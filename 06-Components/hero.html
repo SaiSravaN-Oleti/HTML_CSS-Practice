@@ -30,16 +30,29 @@
       background-color: aquamarine;
     }
 
+    header {
+      /*imp*/
+      background-color: coral;
+      height: 100vh;
+      position: relative;
+    }
+
+    .header-container {
+      position: absolute;
+      /*In relation to element size*/
+      left: 50%;
+      top: 50%;
+      width: 1200px;
+      background-color: aqua;
+      transform: translate(-50%, -50%);
+
+    }
+
     .container {
       margin: 0 auto;
       width: 1200px;
     }
 
-    header {
-      /*imp*/
-      background-color: coral;
-      height: 100vh;
-    }
 
     h1 {
       font-size: 52px;
@@ -80,14 +93,16 @@
     <div>LOGO</div>
     <div>NAVIGATION</div>
   </nav>
-  <div class="container">
-    <h1>A healty meal delivered to your door, every single day </h1>
-    <p>
-      The smart 365-days-per-year ood subscription thet will make you eat healthy algain. Tailored to your personal
-      tastes
-      and nutritional needs
-    </p>
-    <a href="#" class="btn">Start eating well </a>
+  <div class="header-container">
+    <div class="header-container-inner">
+      <h1>A healty meal delivered to your door, every single day </h1>
+      <p>
+        The smart 365-days-per-year ood subscription thet will make you eat healthy algain. Tailored to your personal
+        tastes
+        and nutritional needs
+      </p>
+      <a href="#" class="btn">Start eating well </a>
+    </div>
   </div>
 </header>
 <section>
